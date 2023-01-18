@@ -1,0 +1,19 @@
+{
+  "name": "login_modern_ui",
+  "version": "1.0.0",
+  "description": "practise build of a login modern ui",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "login",
+    "modern",
+    "ui",
+    "moder-ui",
+    "login-ui",
+    "login-modern"
+  ],
+  "author": "Divine Chukwunwemmeri Okafor-udah",
+  "license": "ISC"
+}
