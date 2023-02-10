@@ -1,0 +1,14 @@
+main {
+    background-image: url('polka_dot_background.svg');
+    background-position: center;
+    background-size: contain;
+    opacity: 0.9;
+}
+
+.polka-dot-green {
+    background-image: url('polka_dot_green_background.svg');
+    background-position: center;
+    background-size: 19rem;
+    background-repeat: no-repeat;
+    opacity: 0.3;
+}
