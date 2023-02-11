@@ -1,8 +1,9 @@
 main {
     background-image: url('polka_dot_background.svg');
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     opacity: 0.9;
+    background-repeat: no-repeat;
 }
 
 .polka-dot-green {

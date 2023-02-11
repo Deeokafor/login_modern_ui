@@ -10,19 +10,19 @@
 </head>
 <body>
     <main class="tw-flex tw-justify-center tw-items-center tw-w-full tw-h-screen tw-text-white">
-        <div class="tw-flex tw-justify-between tw-items-center tw-bg-black tw-w-[60vw] tw-h-[90vh] tw-rounded-3xl tw-overflow-hidden">
-            <div class="tw-w-8/12 tw-h-full polka-dot-green"></div>
-            <div class="tw-flex tw-flex-col tw-justify-between tw-w-11/12 tw-h-full tw-bg-gradient-to-br tw-from-neutral-800 tw-to-neutral-900">
+        <div class="tw-flex tw-justify-between tw-items-center tw-bg-black tw-w-[90vw] tw-h-[90vh] tw-rounded-3xl tw-overflow-hidden lg:tw-w-[60vw]">
+            <div class="tw-w-0 tw-h-full polka-dot-green lg:tw-w-8/12"></div>
+            <div class="tw-flex tw-flex-col tw-justify-between tw-w-full tw-h-full tw-bg-gradient-to-br tw-from-neutral-800 tw-to-neutral-900 lg:tw-w-11/12">
                 <div class="tw-flex tw-justify-end tw-items-center tw-mr-10 tw-h-1/6">
                     <!--sign up toggle-->
-                    <div class="tw-flex tw-items-center tw-gap-2 tw-cursor-pointer tw-w-[80px] tw-pr-1 tw-rounded-full tw-bg-neutral-200/10">
+                    <div class="tw-flex tw-items-center tw-gap-2 tw-cursor-pointer tw-w-[80px] tw-pr-1 tw-rounded-full tw-bg-neutral-200/10 dee-toggle">
                         <div class="tw-w-7 tw-h-7 tw-rounded-full tw-bg-green-400"></div>
-                        <span class="tw-text-[10px] tw-capitalize tw-font-bold">sign in</span>
+                        <span class="tw-text-[10px] tw-capitalize tw-font-bold dee-sign-in-message">sign up</span>
                     </div>
                 </div>
                 <!--form-->
                 <form action="" class="tw-h-5/6 tw-px-14">
-                    <h1 class="tw-capitalize tw-text-2xl tw-font-bold tw-py-3">sign up</h1>
+                    <h1 class="tw-capitalize tw-text-2xl tw-font-bold tw-py-3 dee-sign-in-message">sign up</h1>
                     <div class="tw-flex tw-flex-col tw-py-4 tw-gap-2 tw-uppercase">
                         <label for="" class="tw-w-full tw-text-[10px] tw-text-green-300">full name</label>
                         <input type="text" placeholder="enter your name" class="tw-capitalize tw-w-full tw-text-xs tw-py-1 tw-placeholder-white/30 tw-bg-transparent tw-border-b-2 tw-border-b-white/10">
@@ -49,4 +49,5 @@
         </div>
     </main>
 </body>
+<script src="script.js"></script>
 </html>

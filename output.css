@@ -513,6 +513,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.tw-order-2 {
+  order: 2;
+}
+
 .tw-mr-10 {
   margin-right: 2.5rem;
 }
@@ -567,6 +571,14 @@ video {
 
 .tw-w-7 {
   width: 1.75rem;
+}
+
+.tw-w-\[90vw\] {
+  width: 90vw;
+}
+
+.tw-w-0 {
+  width: 0px;
 }
 
 .tw-cursor-pointer {
@@ -762,4 +774,26 @@ video {
 
 .tw-opacity-50 {
   opacity: 0.5;
+}
+
+@media (min-width: 1024px) {
+  .lg\:tw-w-\[\] {
+    width: ;
+  }
+
+  .lg\:tw-w-\[60\] {
+    width: 60;
+  }
+
+  .lg\:tw-w-\[60vw\] {
+    width: 60vw;
+  }
+
+  .lg\:tw-w-8\/12 {
+    width: 66.666667%;
+  }
+
+  .lg\:tw-w-11\/12 {
+    width: 91.666667%;
+  }
 }
