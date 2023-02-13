@@ -1,24 +1,37 @@
-const toggle = document.querySelector('.dee-toggle');
-const toggle_child_1 = toggle.childNodes[1];
-let sign_in_up = document.querySelectorAll('.dee-sign-in-message');
+const toggleButton = document.querySelector('.dee-toggle');
+const toggleButtonChild2 = toggleButton.childNodes[3];
+const fullNameDiv = document.querySelector('#fullname-div');
+let loginTitleText = document.querySelectorAll('.dee-sign-in-message');
+let isTextSignIn = toggleButtonChild2.textContent;
 
-let is_sign_up = () => {
-    if (toggle_child_1.textContent == 'sign in') {
-        console.log(`${toggle_child_1}`)
+//check text in login and form titles
+function changeText() {
+    if (isTextSignIn == 'sign up') {
+        for (let key in loginTitleText) {
+            loginTitleText[key].textContent = 'sign in';
+        }
+    } else {
+        loginTitleText.textContent = 'sign up';
     }
 }
 
-//this changes the state of the sign-in toggle and form title
-toggle.addEventListener('click', function () {
-    //console.log(`${toggle.getAttribute('class')} clicked`);
-    for (let key in sign_in) {
-        sign_in[key].textContent = 'sign up'
-    }
-    
-    (function () {
-        console.log(2 + 2);
-    })()
-    
+//handles adding classlists
+function addClass(element, className) {
+    element.classList.add(className);
+}
 
-    console.log(toggle_child_1);
-})
+//handles removing classlists
+function removeClass(element, className) {
+    element.classList.remove(className)
+}
+
+//handles text check for 
+
+/* 
+    this changes the state of the sign-in toggle and form title 
+*/
+
+toggleButton.addEventListener('click', function() {
+    changeText();
+    addClass(fullNameDiv, 'tw-hidden');
+});
