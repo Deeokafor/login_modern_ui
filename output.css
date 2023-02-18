@@ -513,12 +513,20 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.tw-order-2 {
+  order: 2;
+}
+
 .tw-mr-10 {
   margin-right: 2.5rem;
 }
 
 .tw-flex {
   display: flex;
+}
+
+.tw-hidden {
+  display: none;
 }
 
 .tw-h-screen {
@@ -593,6 +601,10 @@ video {
   gap: 0.5rem;
 }
 
+.tw-gap-0 {
+  gap: 0px;
+}
+
 .tw-overflow-hidden {
   overflow: hidden;
 }
@@ -629,6 +641,11 @@ video {
 
 .tw-bg-transparent {
   background-color: transparent;
+}
+
+.tw-bg-green-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(20 83 45 / var(--tw-bg-opacity));
 }
 
 .tw-bg-gradient-to-br {
@@ -677,6 +694,18 @@ video {
 
 .tw-pr-1 {
   padding-right: 0.25rem;
+}
+
+.tw-pr-0 {
+  padding-right: 0px;
+}
+
+.tw-pl-1 {
+  padding-left: 0.25rem;
+}
+
+.tw-pl-2 {
+  padding-left: 0.5rem;
 }
 
 .tw-text-\[10px\] {
