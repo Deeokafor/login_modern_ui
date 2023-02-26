@@ -13,7 +13,7 @@
         <div class="tw-flex tw-justify-between tw-items-center tw-bg-black tw-w-[90vw] tw-h-[90vh] tw-rounded-3xl tw-overflow-hidden lg:tw-w-[60vw] lg:tw-h-[510px]">
             <div class="tw-w-0 tw-h-full polka-dot-green lg:tw-w-8/12"></div>
             <div class="tw-flex tw-flex-col tw-justify-between tw-w-full tw-h-full tw-bg-gradient-to-br tw-from-neutral-800 tw-to-neutral-900 lg:tw-w-11/12">
-                <div class="tw-flex tw-justify-end tw-items-center tw-mr-10 tw-h-1/6">
+                <div class="tw-w-full tw-px-10 tw-flex tw-justify-end tw-items-center tw-mr-10 tw-h-1/6 lg:tw-px-14">
                     <!--sign up toggle-->
                     <div class="tw-flex tw-items-center tw-gap-2 tw-cursor-pointer tw-w-[80px] tw-pr-1 tw-rounded-full tw-bg-neutral-200/10 dee-toggle">
                         <div class="tw-w-7 tw-h-7 tw-rounded-full tw-bg-green-400"></div>
@@ -21,28 +21,28 @@
                     </div>
                 </div>
                 <!--form-->
-                <form action="" class="tw-h-5/6 tw-px-14">
+                <form id="form" action="" class="tw-h-5/6 tw-px-10 lg:tw-px-14">
                     <h1 id="form-title" class="tw-capitalize tw-text-2xl tw-font-bold tw-py-3">sign up</h1>
                     <div id="fullname-div" class="tw-flex tw-flex-col tw-py-4 tw-gap-2 tw-uppercase">
-                        <label for="" class="tw-w-full tw-text-[10px] tw-text-green-300">full name</label>
+                        <label for="" class="tw-w-full tw-text-[13px] tw-text-green-300 lg:tw-text-[10px]">full name</label>
                         <input type="text" placeholder="enter your name" class="tw-capitalize tw-w-full tw-text-xs tw-py-1 tw-placeholder-white/30 tw-bg-transparent tw-border-b-2 tw-border-b-white/10">
                     </div>
                     <div class="tw-flex tw-flex-col tw-py-4 tw-gap-2 tw-uppercase">
-                        <label for="" class="tw-w-full tw-text-[10px] tw-text-green-300">email</label>
+                        <label for="" class="tw-w-full tw-text-[13px] tw-text-green-300 lg:tw-text-[10px]">email</label>
                         <input type="text" placeholder="enter your email" class="tw-capitalize tw-w-full tw-text-xs tw-py-1 tw-placeholder-white/30 tw-bg-transparent tw-border-b-2 tw-border-b-white/10">
                     </div>
                     <div class="tw-flex tw-flex-col tw-py-4 tw-gap-2 tw-uppercase">
-                        <label for="" class="tw-w-full tw-text-[10px] tw-text-green-300">password</label>
+                        <label for="" class="tw-w-full tw-text-[13px] tw-text-green-300 lg:tw-text-[10px]">password</label>
                         <input type="text" placeholder="enter your password" class="tw-capitalize tw-w-full tw-text-xs tw-py-1 tw-placeholder-white/30 tw-bg-transparent tw-border-b-2 tw-border-b-white/10">
                     </div>
-                    <div class="tw-flex tw-items-center tw-py-2 tw-gap-2">
+                    <div id="terms-of-service" class="tw-flex tw-items-center tw-py-2 tw-gap-2">
                         <input type="checkbox" name="" id="" class="tw-accent-green-400" checked>
-                        <span class="tw-text-[7px] tw-capitalize">i agree to all the statements in the <a href="#" class="tw-opacity-50">terms of service.</a></span>
+                        <span class="tw-text-[9px] tw-capitalize lg:tw-text-[8px]">i agree to all the statements in the <a href="#" class="tw-opacity-50">terms of service.</a></span>
                     </div>
                     <!--form footer-->
                     <div class="tw-flex tw-items-center tw-justify-between tw-py-4 tw-gap-2">
-                        <a href="#" class="tw-text-[8px] tw-opacity-50 tw-underline tw-underline-offset-4">I am already a member</a>
-                        <button id="submit-button" type="submit" class="tw-text-[8px] tw-font-bold tw-px-6 tw-py-2 tw-bg-green-400 tw-text-black tw-rounded-full tw-uppercase">sign in</button>
+                        <a href="#" class="tw-text-[9px] tw-opacity-50 tw-underline tw-underline-offset-4 lg:tw-text-[8px]">I am already a member</a>
+                        <button id="submit-button" type="submit" class="tw-text-[9px] tw-font-bold tw-px-8 tw-py-3 tw-bg-green-400 tw-text-black tw-rounded-full tw-uppercase lg:-px-6 lg:tw-py-2 lg:tw-text-[9px]">sign in</button>
                     </div>
                 </form>
             </div>

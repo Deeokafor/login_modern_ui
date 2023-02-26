@@ -4,8 +4,8 @@ let toggleButtonHead = toggleButton.childNodes[1];
 let toggleButtonText = toggleButton.childNodes[3];
 let formTitle = document.getElementById('form-title');
 let fullNameDiv = document.querySelector('#fullname-div');
-
-console.log(submitButton)
+let termsOfServiceDiv = document.getElementById('terms-of-service');
+let form = document.getElementById('form');
 
 
 //check text in login and form titles
@@ -19,6 +19,7 @@ function changeToggleButtonText() {
         removeClass(toggleButton, 'tw-pr-0');
         removeClass(toggleButton, 'tw-pl-');
         removeClass(toggleButton, 'tw-justify-end');
+        removeClass(termsOfServiceDiv, 'tw-hidden');
         // console.log(`toggle button is ${toggleButtonText.textContent}`);
         return;
     }
@@ -32,6 +33,8 @@ function changeToggleButtonText() {
         addClass(toggleButton, 'tw-pr-0');
         addClass(toggleButton, 'tw-pl-');
         addClass(toggleButton, 'tw-justify-end');
+        addClass(termsOfServiceDiv, 'tw-hidden');
+        addClass(form, 'dee-opacity-fade-n-out-in');
         // console.log(`toggle button is ${toggleButtonText.textContent}`);
         return;
     }
